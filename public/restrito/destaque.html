@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="pt_br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.1.1">
+    <title>Destaque</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/cover/">
+
+    <!-- Bootstrap core CSS -->
+<link href="/docs/4.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- Favicons -->
+<link rel="apple-touch-icon" href="/docs/4.5/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="/docs/4.5/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/docs/4.5/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="manifest" href="/docs/4.5/assets/img/favicons/manifest.json">
+<link rel="mask-icon" href="/docs/4.5/assets/img/favicons/safari-pinned-tab.svg" color="#563d7c">
+<link rel="icon" href="/docs/4.5/assets/img/favicons/favicon.ico">
+<meta name="msapplication-config" content="/docs/4.5/assets/img/favicons/browserconfig.xml">
+<meta name="theme-color" content="#563d7c">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+     <script>
+        function getDotnet() {
+          $.get("http://ec2-3-22-9-46.us-east-2.compute.amazonaws.com/eugenio/ligar", function(data, status){
+	       $("#dotnetCard").text(data);
+	  });
+	  return "OK";
+	}
+	function getJava() {
+          $.get("http://ec2-3-22-9-46.us-east-2.compute.amazonaws.com/eugenio/ligar", function(data, status){
+               $("#javaCard").text(data);
+          });
+          return "OK";
+        }
+	function getNode() {
+	  $.get("http://ec2-3-22-9-46.us-east-2.compute.amazonaws.com/eugenio/ligar", function(data, status){
+	       $("#nodeCard").text(data);	  
+          });
+          return "OK";
+        }
+
+	function getPython() {
+          $.get("http://ec2-3-22-9-46.us-east-2.compute.amazonaws.com/eugenio/ligar", function(data, status){
+               $("#pythonCard").text(data);
+          });
+          return "OK";
+        }
+       </script>
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="cover.css" rel="stylesheet">
+  </head>
+  <body class="text-center">
+
+
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="#"></a> 
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+     <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/restrito/destaque.html">Destaque</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/restrito/lojas.html">Lojas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/restrito/equipamentos.html">Equipamentos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/restrito/planos.html">Planos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/restrito/blog.html">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/restrito/cadastro.html">Cadastro</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/restrito/login.html">Login</a>
+        </li>
+      </ul>
+      <form class="form-inline mt-2 mt-md-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Buscar">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+      </form>
+    </div>
+  </nav>
+</header>
+
+  <main role="main" class="inner cover">
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+
+  <center>
+          <img src=/imagens/logo2.png width=60% />
+  </center>
+
+    <h1 class="cover-heading">STACIN</h1>
+    <p class="lead">Um equipamento de teste de produto seguro para sua loja. Uma solução inovadora desenvolvida pelo equipe GTILab12.</p>
+    <p class="lead">
+      <a href="#" class="btn btn-lg btn-secondary">Saiba mais</a>
+    </p>
+
+    <div class="container">
+    <div class="row">
+      <div class="col">
+	<center>
+        <div class="card" style="width: 14rem;">
+          <img src="/imagens/dumpi-dotnet.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Dotnet Core</h5>
+            <p class="card-text" id="dotnetCard" > # </p>
+            <button class="btn btn-primary" onclick=getDotnet() >Check Dotnet</button>
+          </div>
+        </div>
+	</center>
+        <p></p>
+      </div>
+      <div class="col">
+	<center>
+        <div class="card" style="width: 14rem;">
+          <img src="/imagens/dumpi-java.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Java</h5>
+            <p class="card-text" id="javaCard" > # </p>
+            <button class="btn btn-primary" onclick=getJava() >Check Java</button>
+          </div>
+        </div>
+	</center>
+        <p></p>
+      </div>
+      <div class="col">
+	<center>
+        <div class="card" style="width: 14rem;">
+          <a href="/node"><img src="/imagens/dumpi-node.png" class="card-img-top" alt="..."></a>
+          <div class="card-body">
+            <h5 class="card-title">Node</h5>
+            <p class="card-text" id="nodeCard" > # </p>
+	    <button class="btn btn-primary" onclick=getNode() >Check Node</button>
+          </div>
+        </div>
+	</center>
+        <p></p>
+      </div>
+      <div class="col">
+	<center>
+        <div class="card" style="width: 14rem;">
+          <img src="/imagens/dumpi-python.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Python</h5>
+            <p class="card-text" id="pythonCard" > # </p>
+            <button class="btn btn-primary" onclick=getPython() >Check Python</button>
+          </div>
+        </div>
+	</center>
+        <p></p>
+      </div>
+    </div>
+  </div>
+
+  </main>
+
+  <footer class="mastfoot mt-auto">
+    <div class="inner">
+      <p>STACIN <a href="/">Home</a>, by <a href="https://twitter.com/">GTILab12</a>.</p>
+    </div>
+  </footer>
+</div>
+</body>
+</html>
+

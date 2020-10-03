@@ -20,6 +20,10 @@ app.get('/', cors(), (req, res) => {
   res.render('index');
 });
 
+app.get('/dashboard', cors(), (req, res) => {
+  res.render('dashboard');
+});
+
 app.get('/about', cors(), (req, res) => {
   res.send('Desafio Eugenio Natuar - Hello world\n');
 });
